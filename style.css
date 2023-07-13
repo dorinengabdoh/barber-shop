@@ -3,7 +3,7 @@
     margin: 0;
 }
 #banner{
-    background:linear-gradient(rgba(0,0,0,0.5),#964d00), url(banner.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5),#1e9600), url(banner.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
