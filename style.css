@@ -33,14 +33,17 @@
 .banner-btn a{
     width: 150px;
     text-decoration: none;
-    display: inline-block;
-    margin: 0 10px;
+    display: block;
+    margin: 20px auto;
+   /* display: inline-block;
+    margin: 0 10px;*/
     padding: 12px 0;
     color: #fff;  
     border: .5px solid #fff;
     position: relative;
     z-index: 1;
     transition: color 0.5s;
+   
 }
 .banner-btn a span {
     width: 0;
@@ -57,7 +60,7 @@
     width: 100%;
 }
 .banner-btn a:hover{
-color: black
+color: #000;
  }
 #sideNav{
     width: 250px;
@@ -351,7 +354,7 @@ opacity: 1;
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
-     flex-wrap: wrapp;
+     flex-wrap: wrap;
     
   }
   .footer-left, .footer-right{
@@ -361,8 +364,7 @@ opacity: 1;
   }
   .footer-right{
     text-align: right;   
-    color: #009688;
-  }
+    }
   .footer-row h1{
     margin: 10px 0;
   }
@@ -395,7 +397,7 @@ border: 1px solid #009688;
 margin: 40px 5px 0;
 color: #009688;
 cursor: pointer;
-transition: 5s;
+transition: .5s;
 }
 .sacial-links .fa:hover{
   background:#009688;
